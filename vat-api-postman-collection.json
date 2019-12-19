@@ -1,0 +1,459 @@
+{
+    "id": "51730324cb285809012e12a53a65a04d",
+    "name": "VAT API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "cdc3756bc09f50087411c07fc5248e4d",
+            "name": "Retrieve a countries VAT rates by its 2 digit country code",
+            "url": "http:\/\/vatapi.com\/v1\/country-code-check",
+            "description": "Retrieve a countries vat rates by its 2 digit country code.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "code",
+                    "description": "The 2 digit country code",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        },
+        {
+            "id": "60fdc48dd62e8de69914acd7215a7a41",
+            "name": "Convert a currency",
+            "url": "http:\/\/vatapi.com\/v1\/currency-conversion",
+            "description": "Convert a currency.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currency_from",
+                    "description": "The currency code you are converting from",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currency_to",
+                    "description": "The currency code you are converting to",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "amount",
+                    "description": "Optional, an amount you are wanting to convert. Leave blank to just get the current rate",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        },
+        {
+            "id": "1a0ea74a415d0e9e8e12908accb1686a",
+            "name": "Create a VAT invoice",
+            "url": "http:\/\/vatapi.com\/v1\/invoice",
+            "description": "Create a vat invoice.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "body",
+                    "description": "Enter invoice data as JSON",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        },
+        {
+            "id": "fc3c05ea26ddce289c28a98f550b5883",
+            "name": "Delete an invoice",
+            "url": "http:\/\/vatapi.com\/v1\/invoice\/{id}",
+            "description": "Delete an invoice.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Enter an invoice id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        },
+        {
+            "id": "ed336c6793815015d51105e33e2bcd61",
+            "name": "Retrieve an invoice",
+            "url": "http:\/\/vatapi.com\/v1\/invoice\/{id}",
+            "description": "Retrieve an invoice.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Enter an invoice id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        },
+        {
+            "id": "f9e886b38aac80be839abdfd2f59710a",
+            "name": "Update an existing invoice",
+            "url": "http:\/\/vatapi.com\/v1\/invoice\/{id}",
+            "description": "Update an existing invoice.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Enter an invoice id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "body",
+                    "description": "Enter invoice data as JSON",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        },
+        {
+            "id": "50962e0d2929b8722b07ce8f47cece96",
+            "name": "Retrieve a countries VAT rates from an IP address",
+            "url": "http:\/\/vatapi.com\/v1\/ip-check",
+            "description": "Retrieve a countries vat rates from an ip address.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "address",
+                    "description": "The IP address to search against",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        },
+        {
+            "id": "2f622eebaf9a01eba9d5e07e2e34ad6f",
+            "name": "Check api requests remaining on current subscription plan",
+            "url": "http:\/\/vatapi.com\/v1\/usage-check",
+            "description": "Check api requests remaining on current subscription plan.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        },
+        {
+            "id": "87b7742620f80496b5a6d3f4a4d0a77a",
+            "name": "Validate a VAT number",
+            "url": "http:\/\/vatapi.com\/v1\/vat-number-check",
+            "description": "Validate a vat number.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "vatid",
+                    "description": "The VAT number to validate",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        },
+        {
+            "id": "8105a511d952aff0c428dd25022f44c2",
+            "name": "Convert a price to or from VAT price.",
+            "url": "http:\/\/vatapi.com\/v1\/vat-price",
+            "description": "Convert a price to or from vat price..",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "code",
+                    "description": "The 2 digit country code",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country_rate",
+                    "description": "The VAT rate to get the price for. Default: standard",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "price",
+                    "description": "The price you want converting",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "Optional, if the price is including VAT set the type to 'incl'. Otherwise the default is assumed as excluding VAT already, 'excl'",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        },
+        {
+            "id": "4bd6e60cf58f7f3bbb0c47e0e41fb98a",
+            "name": "Retrieve all current EU VAT rates",
+            "url": "http:\/\/vatapi.com\/v1\/vat-rates",
+            "description": "Retrieve all current eu vat rates.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Response",
+                    "description": "The default response type is application\/json if you would like to receive an XML response then set this to XML",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "rawModeData": ""
+        }
+    ]
+}

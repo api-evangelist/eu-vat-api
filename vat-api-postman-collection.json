@@ -1,5 +1,5 @@
 {
-    "id": "51730324cb285809012e12a53a65a04d",
+    "id": "2a78c1ff8560caa3973925bcc5231297",
     "name": "VAT API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "cdc3756bc09f50087411c07fc5248e4d",
+            "id": "d2992598f4ece1b7618c188be92d11f7",
             "name": "Retrieve a countries VAT rates by its 2 digit country code",
             "url": "http:\/\/vatapi.com\/v1\/country-code-check",
             "description": "Retrieve a countries vat rates by its 2 digit country code.",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         },
         {
-            "id": "60fdc48dd62e8de69914acd7215a7a41",
+            "id": "405783c90b3e8d8fa48e26fd5e4f273a",
             "name": "Convert a currency",
             "url": "http:\/\/vatapi.com\/v1\/currency-conversion",
             "description": "Convert a currency.",
@@ -96,11 +96,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         },
         {
-            "id": "1a0ea74a415d0e9e8e12908accb1686a",
+            "id": "a4f190ec6ca8619e7688d5fc874741e8",
             "name": "Create a VAT invoice",
             "url": "http:\/\/vatapi.com\/v1\/invoice",
             "description": "Create a vat invoice.",
@@ -134,11 +134,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         },
         {
-            "id": "fc3c05ea26ddce289c28a98f550b5883",
+            "id": "812b10959c5128654fd90ad98c8a4b7b",
             "name": "Delete an invoice",
             "url": "http:\/\/vatapi.com\/v1\/invoice\/{id}",
             "description": "Delete an invoice.",
@@ -172,11 +172,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         },
         {
-            "id": "ed336c6793815015d51105e33e2bcd61",
+            "id": "91d4ab4fb90e0db02cdb6c600b112106",
             "name": "Retrieve an invoice",
             "url": "http:\/\/vatapi.com\/v1\/invoice\/{id}",
             "description": "Retrieve an invoice.",
@@ -210,11 +210,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         },
         {
-            "id": "f9e886b38aac80be839abdfd2f59710a",
+            "id": "deac2afb7e4c20c1a5a2d0f0ab232a8d",
             "name": "Update an existing invoice",
             "url": "http:\/\/vatapi.com\/v1\/invoice\/{id}",
             "description": "Update an existing invoice.",
@@ -255,11 +255,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         },
         {
-            "id": "50962e0d2929b8722b07ce8f47cece96",
+            "id": "734cbe2c2a9c22d26bda5838849a0103",
             "name": "Retrieve a countries VAT rates from an IP address",
             "url": "http:\/\/vatapi.com\/v1\/ip-check",
             "description": "Retrieve a countries vat rates from an ip address.",
@@ -293,11 +293,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         },
         {
-            "id": "2f622eebaf9a01eba9d5e07e2e34ad6f",
+            "id": "c7ffece6d08d419594badd9657df1e89",
             "name": "Check api requests remaining on current subscription plan",
             "url": "http:\/\/vatapi.com\/v1\/usage-check",
             "description": "Check api requests remaining on current subscription plan.",
@@ -324,11 +324,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         },
         {
-            "id": "87b7742620f80496b5a6d3f4a4d0a77a",
+            "id": "030250510521f613a3e9c83eaa9e1528",
             "name": "Validate a VAT number",
             "url": "http:\/\/vatapi.com\/v1\/vat-number-check",
             "description": "Validate a vat number.",
@@ -362,11 +362,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         },
         {
-            "id": "8105a511d952aff0c428dd25022f44c2",
+            "id": "a67af6d08ae43fb5899b546ecd26bfcf",
             "name": "Convert a price to or from VAT price.",
             "url": "http:\/\/vatapi.com\/v1\/vat-price",
             "description": "Convert a price to or from vat price..",
@@ -421,11 +421,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         },
         {
-            "id": "4bd6e60cf58f7f3bbb0c47e0e41fb98a",
+            "id": "198b6c2321935d4f1a854c2f7616aa39",
             "name": "Retrieve all current EU VAT rates",
             "url": "http:\/\/vatapi.com\/v1\/vat-rates",
             "description": "Retrieve all current eu vat rates.",
@@ -452,7 +452,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "51730324cb285809012e12a53a65a04d",
+            "collectionId": "2a78c1ff8560caa3973925bcc5231297",
             "rawModeData": ""
         }
     ]
